@@ -40,10 +40,9 @@ void main(){
     " " : "/"
   };
   String? text = stdin.readLineSync();
-  print(text!.split(""));
+  // print(text!.split(""));
   var list = text!.split("");
   for (var i=0;i<text.length;i++){
-    // print("${MorseCode[list![i].toLowerCase()]} ");
     stdout.write("${MorseCode[list![i].toLowerCase()]} ");
   }
 }
