@@ -39,6 +39,7 @@ void main(){
     "0" : "-----",
     " " : "/"
   };
+  print("Enter the text to be converted to Morse Code:")
   String? text = stdin.readLineSync();
   var list = text!.split("");
   for (var i=0;i<text.length;i++){
